@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>assignment</title>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href="style.css">
+    </head>
+    <body>
+        <h1 class="header_text">Balance Sheet</h1>
+        <div class="container">
+            <div class="sub-container">
+                <div class="box-container">
+                    <select class="box" id="type">
+                        <div class="opt">
+                            <option class="income">income</option>
+                            <option class="expense">expenses</option>
+                        </div>
+                    </select><br>
+                </div>
+                <div class="box-container">
+                    <input class="box" id="description" type="text" placeholder="Description"><br>
+                </div>
+                <div class="box-container">
+                    <input class="box" id="amount" type="number" placeholder="amount">
+                </div>
+                <div class="btn-container">
+                    <a href="" class="btn">Add Entry</a>
+                </div>
+            </div>
+            <div class="sub-container">
+                <div class="box-container">
+                    <label>Income</label>
+                    <h3><span class="box-text1" id="inbal">4,095</h3>
+                </div>
+                <div class="box-container">
+                    <label>Expenses</label>
+                    <h3><span class="box-text2" id="exbal">4,095</h3>
+                </div>
+                <div class="box-container">
+                    <label>Available Cash</label>
+                    <h3><span class="box-text3" id="bal">4,095</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container" id ="table">
+            <div class="balance">
+                <h2>INCOME</h2>
+                <div class="display-head">
+                    <h4>description</h4>
+                    <h4>amount</h4>
+                </div>
+                <div class="main-display1">
+                    <div class="display">
+                        <h4 class="descript">x</h4>
+                        <h4 class="amountt">1</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="balance">
+                <h2>EXPENSES</h2>
+                <div class="display-head">
+                    <h4>description</h4>
+                    <h4>amount</h4>
+                </div>
+                <div class="main-display2">
+                    <div class="display">
+                        <h4 class="descript">x</h4>
+                        <h4 class="amountt">1</h4>
+                    </div>
+                </div>
+            </div>
+            
+        </div>                
+    </body>
+    <script src="js/index.js"></script>
+</html>
